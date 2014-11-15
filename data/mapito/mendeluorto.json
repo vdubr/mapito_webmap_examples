@@ -1,0 +1,45 @@
+{
+  "projection":"EPSG:4326",
+  "map":{
+    "center":[15,50],
+    "zoom":9,
+    "baseResolution":156543.03391,
+    "resolutionsLevels":21
+  },
+  "layers":[
+  {
+    "type":"geotif",
+    "specs":{
+      "url":"./data/raster/dron_data/orto5.tif",
+      "projection":"EPSG:3857",
+      "extent":[16.614131523092496,49.21346301231194,16.61579302573785,49.21483578253858],
+      "imageSize":[1565,1287]
+    },
+    "config":{
+      "name":"Local",
+      "baselayer":false,
+      "visible":false,
+      "alpha":0.5,
+      "reload":0,
+      "tags":["tiled"]
+      }
+  },
+    {
+      "type":"wms",
+      "specs":{
+        "url":"http://geoportal.cuzk.cz/WMS_ZM10_PUB/WMService.aspx",
+        "layers":"GR_ZM10",
+        "tiled":true,
+        "projection":"EPSG:3857"
+      },
+      "config":{
+        "name":"Základní mapa 10",
+        "baselayer":false,
+        "visible":true,
+        "alpha":0,
+        "reload":0,
+        "tags":["ZM10,podkladovka"]
+        }
+    }
+  ]
+}
