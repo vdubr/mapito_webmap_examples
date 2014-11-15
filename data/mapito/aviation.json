@@ -1,0 +1,26 @@
+{
+  "projection":"EPSG:4326",
+  "map":{
+    "center":[15,50],
+    "zoom":9,
+    "baseResolution":156543.03391,
+    "resolutionsLevels":21
+  },
+  "layers":[
+  {
+    "type":"tiled",
+    "specs":{
+      "url":"./data/raster/aviationmap/",
+      "projection":"EPSG:4326"
+    },
+    "config":{
+      "name":"Local tiled cr",
+      "baselayer":false,
+      "visible":true,
+      "alpha":0,
+      "reload":0,
+      "tags":["tiled"]
+      }
+  }
+  ]
+}
