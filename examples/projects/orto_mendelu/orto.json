@@ -38,11 +38,25 @@
       "config":{
         "name":"Local",
         "baselayer":true,
-        "visible":true,
+        "visible":false,
         "alpha":0,
         "reload":0,
         "tags":["tiled"]
         }
+    },    {
+      "type":"tiled",
+      "specs":{
+        "url":"./examples/projects/orto_mendelu/orto5/",
+        "projection":"EPSG:5514"
+      },
+      "config":{
+        "name":"Local tiled dron data",
+        "baselayer":false,
+        "visible":true,
+        "alpha":0,
+        "reload":0,
+        "tags":["tiled"]
+      }
     }
   ],
   "theme":{},

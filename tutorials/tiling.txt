@@ -1,0 +1,1 @@
+gdal2tiles.py -s EPSG:5514 -z 21 orto5.tif

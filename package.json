@@ -1,0 +1,25 @@
+{
+  "name": "mapito_webmap_examples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "loader.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://vdubr@github.com/vdubr/mapito_webmap_examples.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vdubr/mapito_webmap_examples/issues"
+  },
+  "homepage": "https://github.com/vdubr/mapito_webmap_examples#readme",
+  "dependencies": {
+    "mapito-webmap": "0.0.5"
+  }
+}
