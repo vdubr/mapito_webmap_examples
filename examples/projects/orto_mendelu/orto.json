@@ -5,8 +5,10 @@
       "extent" : [-951313.86, -1275181.81,-159398.12, -984126.34]
       },
   "map":{
-    "center":[-763194.76,	-1166403.61],
-    "zoom":9,
+    "init":{
+      "center":[-597514.2216791963, -1158665.3186487614],
+      "zoom":18
+      },
     "baseResolution":156543.03391,
     "resolutionsLevels":21
   },
@@ -38,7 +40,7 @@
       "config":{
         "name":"Local",
         "baselayer":true,
-        "visible":false,
+        "visible":true,
         "alpha":0,
         "reload":0,
         "tags":["tiled"]
@@ -52,7 +54,7 @@
       "config":{
         "name":"Local tiled dron data",
         "baselayer":false,
-        "visible":true,
+        "visible":false,
         "alpha":0,
         "reload":0,
         "tags":["tiled"]

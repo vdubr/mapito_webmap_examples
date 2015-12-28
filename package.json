@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/vdubr/mapito_webmap_examples#readme",
   "dependencies": {
-    "mapito-webmap": "0.0.5"
+    "mapito-webmap": "^0.0.8"
   }
 }
